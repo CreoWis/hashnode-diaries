@@ -25,7 +25,7 @@ const Publication = ({ host, tag }) => {
       </div>
       {tagName && (
         <h1 className="text-2xl font-bold px-8 py-4 bg-gray-100">
-          Results for Tag&nbsp;|&nbsp;{tagName}
+          Results for Tag &nbsp;|&nbsp; {tagName}
         </h1>
       )}
       {posts && posts.length > 0 ? (

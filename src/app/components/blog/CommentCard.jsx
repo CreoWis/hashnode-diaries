@@ -6,19 +6,19 @@ const CommentCard = ({ comment }) => {
   const allReplies = replies?.edges;
   return (
     <div>
-      <div className="flex gap-3 items-start">
-        <div className="w-16 h-16 rounded-full overflow-hidden bg-black">
+      <div className="flex gap-3 mt-3 items-start">
+        <div className="w-16 h-16 rounded-full overflow-hidden bg-black border border-black">
           <Image
             width={320}
             height={320}
             src={author.profilePicture}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover "
           />
         </div>
-        <div className="bg-gray-300 w-full min-h-[64px] pt-2 px-5">
+        <div className="bg-gray-100 w-full min-h-[64px] p-4 px-5 border border-black rounded-lg">
           <div className="font-bold text-[13px]">{author.name}</div>
           <div
-            className="text-[14px]"
+            className="text-[16px]"
             dangerouslySetInnerHTML={{ __html: content.html }}
           ></div>
         </div>
