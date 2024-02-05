@@ -1306,10 +1306,10 @@ has-tostringtag@^1.0.0:
   dependencies:
     has-symbols "^1.0.2"
 
-hashnode-client@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/hashnode-client/-/hashnode-client-1.0.2.tgz#bbafada01ba43295e4a54b69a5dc6f8c90c8bb07"
-  integrity sha512-ZypFiqkThFhTJqZ6PwKCfsAzOWWH4voE2RQu2+9iLBv2V4Y0laX97zCAJf2G51ZptKvIHyCjYA0uitYZx0YrTg==
+hashnode-client@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/hashnode-client/-/hashnode-client-1.0.3.tgz#d27cfd6d275a364ec38bac63d31f8f9e64cfead1"
+  integrity sha512-cK6W9CuVfqFZey0MWAwl0lup4ShP6QQ4nIwjuSklKvqipTwIwv0vjdpXhKlXzWDfolDhFX5ktMmQTpJUNKu56w==
   dependencies:
     graphql "^16.8.1"
     graphql-request "^6.1.0"
@@ -2274,6 +2274,7 @@ streamsearch@^1.1.0:
   integrity sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
