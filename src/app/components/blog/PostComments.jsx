@@ -17,7 +17,7 @@ const PostComments = ({ host, postId }) => {
       <div className="mt-5 pb-10 w-full">
         <h2 className="mt-2 w-full text-left text-3xl font-bold  flex items-center gap-3">
           Comments{" "}
-          <span className="inline-flex h-[24px] w-[24px] bg-black rounded-full text-white text-base justify-center items-center">
+          <span className="inline-flex h-8 w-8 bg-black rounded-full text-white text-base justify-center items-center">
             {totalComments}
           </span>
         </h2>
